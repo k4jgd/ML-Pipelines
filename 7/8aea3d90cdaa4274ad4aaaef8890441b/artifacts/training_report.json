@@ -1,0 +1,25 @@
+{
+  "raw_sessions": 850,
+  "machine_days": 265,
+  "machines": 12,
+  "train_rows": 105,
+  "test_rows": 144,
+  "last_complete_day": "2026-09-23",
+  "target_cutoff": "2026-09-11",
+  "unknown_machine_days": 4,
+  "best_model": "Ridge",
+  "metrics": {
+    "MAE": 7.876070309957798,
+    "RMSE": 10.289964346290411,
+    "R2": 0.18236320965266084
+  },
+  "persistence_baseline": {
+    "MAE": 6.808931327160494,
+    "RMSE": 9.988387367956994,
+    "R2": 0.22958729135168432
+  },
+  "champion_compared": null,
+  "champion_metric": null,
+  "promoted": true,
+  "promotion_reason": "no existing champion; registering as the initial champion"
+}

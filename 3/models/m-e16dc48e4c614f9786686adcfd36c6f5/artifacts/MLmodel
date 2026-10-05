@@ -1,0 +1,22 @@
+artifact_path: file:D:/PROJECT_WASH_TYM/PREDICTIONS/mlruns/3/models/m-e16dc48e4c614f9786686adcfd36c6f5/artifacts
+flavors:
+  python_function:
+    data: model.ubj
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.13.14
+  xgboost:
+    code: null
+    data: model.ubj
+    model_class: xgboost.sklearn.XGBRegressor
+    model_format: ubj
+    xgb_version: 3.4.1
+mlflow_version: 3.16.1
+model_id: m-e16dc48e4c614f9786686adcfd36c6f5
+model_size_bytes: 135803
+model_uuid: m-e16dc48e4c614f9786686adcfd36c6f5
+prompts: null
+run_id: 3928c3a83c7740a7bc541894041a3d7b
+utc_time_created: '2026-09-28 11:23:48.666832'

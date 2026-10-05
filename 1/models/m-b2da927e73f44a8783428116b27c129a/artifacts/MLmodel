@@ -1,0 +1,24 @@
+artifact_path: file:D:/PROJECT_WASH_TYM/PREDICTIONS/mlruns/1/models/m-b2da927e73f44a8783428116b27c129a/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.13.14
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types:
+    - sklearn.tree._tree.Tree
+mlflow_version: 3.16.1
+model_id: m-b2da927e73f44a8783428116b27c129a
+model_size_bytes: 10478
+model_uuid: m-b2da927e73f44a8783428116b27c129a
+prompts: null
+run_id: a9951cb7ef484038875a9b737205685c
+utc_time_created: '2026-09-24 13:26:43.965221'

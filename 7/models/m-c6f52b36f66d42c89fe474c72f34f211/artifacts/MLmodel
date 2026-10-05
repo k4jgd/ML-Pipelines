@@ -1,0 +1,41 @@
+artifact_path: file:D:/PROJECT_WASH_TYM/PREDICTIONS/mlruns/7/models/m-c6f52b36f66d42c89fe474c72f34f211/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.13.14
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types:
+    - sklearn.tree._tree.Tree
+is_signature_from_type_hint: false
+mlflow_version: 3.16.1
+model_id: m-c6f52b36f66d42c89fe474c72f34f211
+model_size_bytes: 3328221
+model_uuid: m-c6f52b36f66d42c89fe474c72f34f211
+prompts: null
+run_id: 4359f06d7a8d4dcb8566ca609eb9fc7c
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "UtilizationPct", "required": true}, {"type":
+    "long", "name": "UnknownDuration", "required": true}, {"type": "double", "name":
+    "Lag1", "required": true}, {"type": "double", "name": "Lag7", "required": true},
+    {"type": "double", "name": "Mean3", "required": true}, {"type": "double", "name":
+    "Mean7", "required": true}, {"type": "long", "name": "HistoryDays", "required":
+    true}, {"type": "integer", "name": "NextDayOfWeek", "required": true}, {"type":
+    "long", "name": "NextIsWeekend", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-09-30 06:48:10.443561'
