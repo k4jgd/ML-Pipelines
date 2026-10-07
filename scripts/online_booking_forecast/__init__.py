@@ -1,0 +1,1 @@
+"""Online booking forecast pipeline."""
